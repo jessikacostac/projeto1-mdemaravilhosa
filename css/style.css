@@ -24,6 +24,11 @@ a {
     border-radius: 5px;
 }
 
+.btn--center {
+    text-align: center;
+    padding: 40px 0;
+}
+
 /* ---------- NAV ---------- */
 nav {
     background-color: #674582;
