@@ -16,7 +16,7 @@ a {
     text-decoration: none;
 }
 
-.buttona {
+.btnPadrao {
     background-color: #C083B9;
     text-transform: uppercase;
     font-weight: bold;
@@ -42,20 +42,20 @@ nav {
     justify-content: space-around;
 }
 
-.logo-nav img {
+.navegacao__logo img {
     width: 45%;
 }
 
-.nav-lista {
+.navegacao__lista {
     display: none;
 }
 
-.nav-sanduba {
+.navegacao__hamburguer {
     display: flex;
     
 }
 
-.nav-sanduba img {
+.navegacao__hamburguer img {
     background-color: #C083B9;
     border-radius: 5px;
 }
@@ -407,7 +407,7 @@ img.fb {
 }
 
 /* ---------- PERFIS RECOMENDADOS ---------- */
-.perfis-recomendados {
+/* .perfis-recomendados {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -439,7 +439,7 @@ img.fb {
 .sobre-perfil-recomendado a {
     color: #63458a;
     font-weight: bold;
-}
+} */
 
 /* ---------- SOBRE ---------- */
 /* ---------- ONDE SURGIU ---------- */
