@@ -90,12 +90,12 @@
         margin: 1% 0;
     }
 
-/* ---------- SECTION VC-CONHECE ---------- */
-    .vc-conhece > div {
+/* ---------- SECTION maravilhosas ---------- */
+    .maravilhosas > div {
         width: 50%;
     }
 
-    .vc-conhece .mulher {
+    .maravilhosas .mulher {
         width: 20%;
     }
 
@@ -291,13 +291,13 @@
     }
 
     /* ---------- PERFIS ---------- */
-    /* ---------- VC-CONHECE ---------- */
+    /* ---------- maravilhosas ---------- */
 
-    .vc-conhece, .veja-todas {
+    .maravilhosas, .veja-todas {
         padding: 1% 0;
     }
 
-    .vc-conhece > div, .veja-todas > div {
+    .maravilhosas > div, .veja-todas > div {
         width: 70%;
     }
 
