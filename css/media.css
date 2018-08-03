@@ -2,6 +2,7 @@
 
 @media (min-width: 768px) {
 
+    /* ---------- NAV ---------- */
     nav {
         min-height: 12vh;
     }
@@ -53,7 +54,7 @@
         margin: 2% 0;
     }
 
-    .btnPadrao {
+    .btn-padrao {
         padding: 1% 4%;
         font-size: 115%;
     }
@@ -62,54 +63,17 @@
         font-size: 200%;
     }
 
-    /* ---------- SECTION WE-CAN-DO-IT ---------- */
-    div.mais-tres {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        text-align: center;
-    }
-
-    .we-can-do-it {
-         min-height: 50vh;
-         padding: 3% 0;
-    }
-
-    .we-can-do-it div {
-        width: 68%;
-        min-height: 80%;
-    }
-
-    .we-can-do-it img {
-        width: 22%;
-        object-fit: contain;
-    }
-
-    .we-can-do-it p {
-        font-size: 140%;
-        margin: 1% 0;
-    }
-
 /* ---------- SECTION maravilhosas ---------- */
     .maravilhosas > div {
         width: 50%;
     }
 
-    .maravilhosas .mulher {
+    .maravilhosas__perfil {
         width: 20%;
     }
 
-/* ---------- SECTION CRIADORAS ---------- */
-    .alunas {
-        width: 65%;
-    }
-
-    .aluninha {
-        width: 13%;
-    }
-
 /* ---------- FOOTER ---------- */
-    footer > div {
+    rodape__principal {
         flex-direction: row;
         justify-content: center;
         align-items: center;
@@ -124,26 +88,17 @@
         margin: 2% 0;
     }
 
-    img.footer-imagem {
-        width: 65%;
-    }
-
-    .mensagemfinal {
-        font-size: 110%;
-    }
-
-    img.fb {
+    rodape__principal__facebook img {
         width: 7%;
     }
 
 
-
     /* ---------- NOME-SOBRENOME ---------- */
     /* ---------- OUTRA HEADER ---------- */
-    .outra-header, .why-header {
+    /* .outra-header, .why-header {
         padding: 0 20%;
         display: flex;
-    }
+    } */
 
     .why-header {
         min-height: 73vh;
@@ -156,12 +111,12 @@
 
     /* ---------- PSERSONALIDADE ---------- */
 
-    .personalidade {
+    .diva {
         min-height: 100vh;
         padding: 0;
     }
 
-    .personalidade > div {
+    .diva > div {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -169,19 +124,19 @@
         width: 60%;
     }
 
-    .personalidade > div > div {
+    .diva > div > div {
         width: 70%;
     }
 
-    .personalidade .diva {
+    .diva .diva {
         width: 25%;
     }
 
-    .personalidade p, .historia p {
+    .diva p, .historia p {
         font-size: 130%;
     }
 
-    .personalidade .frase {
+    .diva .frase {
         width: 60%;
         font-size: 150%;
         margin: 0;
@@ -231,63 +186,6 @@
 
     .autora p {
         padding: 1% 0;
-    }
-    
-    /* ---------- PERFIS RECOMENDADOS ---------- */
-    /* .perfis-recomendados > div {
-        width: 60%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .perfis-recomendados > div > div {
-        display: flex;
-        align-items: center;
-        font-size: 120%; 
-    }*/
-
-    /* ---------- SOBRE ---------- */
-    /* ---------- ONDE SURGIU | PROJETO RELEVANTE ---------- */
-    .onde-surgiu, .projeto-relevancia {
-        padding: 1% 0 0 0;
-    }
-
-    .fotona-sobre {
-        width: 64%;
-        height: 24vh;
-    }
-
-    .onde-surgiu p, section.projeto-relevancia p {
-        font-size: 130%;
-        margin: 0.5% 0;
-        width: 63%;
-    }
-
-    /* ---------- PROJETO RELEVANCIA ---------- */
-    .porcento {
-        width: 60%;
-    }
-
-    .porcento > div {
-        flex-direction: row;
-        width: 70%;
-    }
-
-    .porcento > div > p {
-        width: unset;
-        text-align: left;
-    }
-
-    .porcento .estatistica {
-        font-size: 450%;
-        font-weight: 700;
-        margin: 0 5%;
-    }
-
-    /* ---------- CRIADORAS ---------- */
-    .nome-aluna p {
-        font-size: 70%;
     }
 
     /* ---------- PERFIS ---------- */
