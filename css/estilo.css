@@ -17,7 +17,6 @@ a {
     text-decoration: none;
 }
 
-
 h1 {
     text-transform: uppercase;
     margin: 0;
@@ -48,11 +47,7 @@ h3 {
 
 .btn-padrao--center {
     text-align: center;
-    padding: 40px 0;
-}
-
-.logo img {
-    width: 225px;
+    padding: 5% 0;
 }
 
 
@@ -65,13 +60,23 @@ nav {
     align-items: center; */
     color: white;
     text-transform: uppercase;
+    box-shadow: 0px 5px 5px black;
+}
+
+nav .logo img {
+    width: 100%;
+}
+
+nav .logo {
+    width: 50%;
 }
 
 .navegacao {
     display: flex;
     width: 90%;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 
@@ -88,9 +93,7 @@ nav {
 /* ---------- HEADER ---------- */
 header {
     min-height: 48vh;
-    background: linear-gradient(rgba(212, 0, 255, 0.2),
-                                rgba(212, 0, 255, 0.2)),
-                url(../img/header.jpg);
+    background: url(../img/bg-banner-claro.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -118,20 +121,21 @@ header {
     justify-content: center;
     align-items: center;
     padding: 5% 0;
-    width: 85%;
     margin: 0 auto;
 }
 
-.maravilhosas p {
-    color: #63458a;
-    margin: 0;
-}
 
 .maravilhosas {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
+    width: 85%;
+}
+
+.maravilhosas p {
+    color: #63458a;
+    margin: 0;
 }
 
 .maravilhosas__perfil {
@@ -172,6 +176,10 @@ footer {
     margin: 10% 0;
 }
 
+.rodape__principal .logo img {
+    width: 100%;
+}
+
 .rodape__principal__facebook a {
     display: flex;
     align-items: center;
@@ -189,13 +197,6 @@ footer {
     font-size: 120%;
 }
 
-/* footer > div > div {
-    width: 100%;
-}
-
-img.footer-imagem {
-    width: 100%;
-} */
 
 /* .mensagemfinal {
     font-style: italic;
@@ -211,20 +212,18 @@ img.footer-imagem {
     text-align: center;
 }
 
-/* *******************************PÁGINA PERFIL**************************************************** */
+/* ************************PÁGINA PERFIL**************************** */
 
 /* ---------- OUTRA HEADER ---------- */
-/* .outra-header, .why-header {
+ .why-header {
     display: flex;
     min-height: 30vh;
-    background: linear-gradient(rgba(140, 0, 255, 0.2),
-                                rgba(140, 0, 255, 0.2)),
-                url(../img/header.jpg);
+    background: url(../img/bg-banner-escuro.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     justify-content: flex-end;
-} */
+}
 
 .why-header {
     min-height: 50vh;
@@ -238,11 +237,13 @@ img.footer-imagem {
 
 /* ---------- PEFIL DIVA---------- */
 .diva {
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 5% 0;
+    margin: 0 auto;
 }
 
 .diva p {
@@ -251,23 +252,22 @@ img.footer-imagem {
     text-align: left;
 }
 
-.diva__introducao > div, .diva__frase-impacto {
-    width: 80%;
+.diva__introducao {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 1% 0;
+    padding: 5% 0;
     margin: 0 auto;
 }
 
-.diva__foto {
+.diva__introducao__foto {
     width: 50%;
     margin: 2%;
     background-color: #63458a;
 }
 
-.diva__foto img {
+.diva__introducao__foto img {
     width: 100%;
     object-fit: contain;
 }
@@ -299,13 +299,12 @@ img.footer-imagem {
 }
 
 .diva__historia > div {
-    width: 80%;
+    width: 100%;
 }
 
 .diva__historia  .diva__historia__foto-grande {
-    width: 100%;
     height: 28vh;
-    margin: 5% 0;
+    margin: 1% 0;
     background: url(../img/header.jpg);
     background-size: cover;
     background-position: center;
@@ -321,7 +320,7 @@ img.footer-imagem {
 }
 
 .autora > div {
-    width: 90%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-around;

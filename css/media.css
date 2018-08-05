@@ -2,48 +2,8 @@
 
 @media (min-width: 768px) {
 
-    /* ---------- NAV ---------- */
-    nav {
-        min-height: 12vh;
-    }
-
-    .navegacao {
-        width: 65%;
-    }
-
-    .navegacao__lista {
-        min-width: 50%;
-        display: flex;
-        justify-content: flex-end;
-    }
     
-    nav ul {
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
-    }
-    
-    nav li {
-        font-size: 84%;
-    }
-    
-    .navegacao__hamburguer {
-        display: none;
-    }
-
-    /* ---------- HEADER ---------- */
-    header {
-        height: 56vh;
-        position: relative;
-        align-items: left;
-        text-align: left;
-        padding: 5% 10%;
-    }
-
-    header div {
-        position: absolute;
-        bottom: 10%;
-    }
+    /* ---------- GERAL ---------- */
 
     h1 {
         font-size: 200%;
@@ -63,107 +23,166 @@
         font-size: 200%;
     }
 
-/* ---------- SECTION maravilhosas ---------- */
-    .maravilhosas > div {
-        width: 50%;
+
+    /* ---------- NAV ---------- */
+    nav {
+        min-height: 12vh;
+        display: flex;
     }
 
-    .maravilhosas__perfil {
+    .navegacao {
+        width: 80%;
+        justify-content: space-around;
+    }
+
+    nav .logo {
+        width: 30%;
+    }
+
+    .navegacao__lista {
+        width: 40%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    nav li {
+        font-size: 84%;
+        padding: 0 2% 0;
+    }
+    
+    .navegacao__hamburguer {
+        display: none;
+    }
+
+    /* ---------- HEADER ---------- */
+    header {
+        height: 56vh;
+        position: relative;
+        align-items: left;
+        text-align: left;
+        padding: 5% 10%;
+    }
+
+    .principal {
+        position: absolute;
+        bottom: 10%;
+        width: 70%;
+    }
+
+/* ---------- SECTION MARAVILHOSAS ---------- */
+    .maravilhosas {
+        padding: 1% 0;
+        width: 70%;
+    }
+
+    .maravilhosas > div {
         width: 20%;
     }
 
 /* ---------- FOOTER ---------- */
-    rodape__principal {
+    .rodape__principal {
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         width: 70%;
-    }
-
-    footer > div > div {
-        width: 30%;
     }
 
     footer li {
         margin: 2% 0;
     }
 
+    .rodape__principal .logo img {
+        width: 70%;
+    }
     rodape__principal__facebook img {
         width: 7%;
     }
 
+    /* ************************PÁGINA PERFIL**************************** */
 
-    /* ---------- NOME-SOBRENOME ---------- */
     /* ---------- OUTRA HEADER ---------- */
-    /* .outra-header, .why-header {
+    .why-header {
         padding: 0 20%;
         display: flex;
-    } */
+    }
 
     .why-header {
-        min-height: 73vh;
+        min-height: 55vh;
         align-items: center;
     }
 
-    .outra-header h1, .why-header h1 {
+    .why-header h1 {
         font-size: 430%;
+        text-align: center;
     }
 
-    /* ---------- PSERSONALIDADE ---------- */
+    /* ---------- PERFIL DIVA ---------- */
 
     .diva {
         min-height: 100vh;
         padding: 0;
+        width: 60%;
     }
 
-    .diva > div {
+
+    .diva article {
+        padding-top: 5%;
+    }
+    .diva__introducao {
+        font-size: 125%;
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
-        width: 60%;
+        justify-content: space-around;
+        
     }
 
-    .diva > div > div {
-        width: 70%;
-    }
-
-    .diva .diva {
+    .diva__introducao__foto {
         width: 25%;
     }
 
-    .diva p, .historia p {
+    .diva__introducao__texto {
+        width: 65%;
+    }
+
+    .diva p, .diva__historia p {
         font-size: 130%;
     }
 
-    .diva .frase {
-        width: 60%;
+    .diva__frase-impacto {
         font-size: 150%;
-        margin: 0;
+        /* margin: 5%; */
     }
 
-    /* ---------- HISTORIA ---------- */
-    .historia {
-        padding: 0;
+    .diva__historia {
+        padding: 5% 0;
         min-height: 100vh;
     }
 
-    .historia h3 {
-        width: 60%;
+    .diva__historia h3 {
         margin-bottom: 0;
     }
 
-    .historia > div {
-        width: 60%;
+    .diva__historia > div {
         padding: 1% 0;
         font-size: 110%;
     }
 
-    .historia .fotona {
+    .diva__historia__foto-grandehistoria {
         height: 42vh;
         margin: 0;
-        width: 60%;
     }
+
+
+
 
     /* ---------- AUTORA ---------- */
     .autora {
@@ -174,11 +193,11 @@
         justify-content: center;
     }
 
-    .autora .foto-autora {
+    .autora__foto {
         width: 15%; 
     }
 
-    .autora .dados-autora {
+    .autora__dados {
         font-size: 120%;
         font-weight: bold;
         margin: 0 5%;
@@ -186,41 +205,6 @@
 
     .autora p {
         padding: 1% 0;
-    }
-
-    /* ---------- PERFIS ---------- */
-    /* ---------- maravilhosas ---------- */
-
-    .maravilhosas, .veja-todas {
-        padding: 1% 0;
-    }
-
-    .maravilhosas > div, .veja-todas > div {
-        width: 70%;
-    }
-
-    .veja-todas .mulher {
-        width: 50%;
-        margin: 3% 0;
-    }
-    .veja-todas .trinta .mulher a {
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
-    }
-
-    .veja-todas .mulher img {
-        width: 30%;
-    }
-
-    .veja-todas .mulher > div {
-        min-width: 40%;
-    }
-
-    .veja-todas .mulher p {
-        font-size: 100%;
-        margin-left: 5%;
-        width: 100%;
     }
 
 }
