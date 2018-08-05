@@ -2,10 +2,8 @@
 
 @media (min-width: 768px) {
 
-    
     /* ---------- GERAL ---------- */
-
-    h1 {
+    h1, h3 {
         font-size: 200%;
     }
 
@@ -19,11 +17,6 @@
         font-size: 115%;
     }
 
-    h3 {
-        font-size: 200%;
-    }
-
-
     /* ---------- NAV ---------- */
     nav {
         min-height: 12vh;
@@ -35,17 +28,17 @@
         justify-content: space-around;
     }
 
-    nav .logo {
-        width: 30%;
+    .navegacao .logo img{
+        max-width: 350px;
     }
-
-    .navegacao__lista {
+    
+    .navegacao__itens {
         width: 40%;
         display: flex;
         justify-content: flex-end;
     }
     
-    nav ul {
+    .navegacao__itens ul {
         display: flex;
         justify-content: space-around;
         width: 100%;
@@ -53,14 +46,18 @@
         text-align: center;
     }
     
-    nav li {
+    .navegacao__itens li {
         font-size: 84%;
         padding: 0 2% 0;
     }
     
-    .navegacao__hamburguer {
+    .navegacao__menu-hamburguer {
         display: none;
     }
+
+    .icon-menu:before {
+        content: "\1f32b";
+      }
 
     /* ---------- HEADER ---------- */
     header {
@@ -95,14 +92,14 @@
         width: 70%;
     }
 
-    footer li {
+    .rodape__principal li {
         margin: 2% 0;
     }
 
     .rodape__principal .logo img {
         width: 70%;
     }
-    rodape__principal__facebook img {
+    .rodape__principal__facebook img {
         width: 7%;
     }
 
@@ -112,9 +109,6 @@
     .why-header {
         padding: 0 20%;
         display: flex;
-    }
-
-    .why-header {
         min-height: 55vh;
         align-items: center;
     }
@@ -181,15 +175,12 @@
         margin: 0;
     }
 
-
-
-
     /* ---------- AUTORA ---------- */
     .autora {
         min-height: 40vh;
     }
     .autora > div {
-        width: 60%;
+        width: 80%;
         justify-content: center;
     }
 
